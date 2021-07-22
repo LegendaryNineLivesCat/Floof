@@ -1,0 +1,39 @@
+<title> Project floof</title>
+<body onload = "onload()" >
+                
+          Hello world UwU      
+                
+                
+                </body>
+      
+      <script type="text/javascript">
+    function onload() {
+      var mystats = {
+        health: 100,
+        maxhealth: 100,
+        attack: 5,
+        maxattack: 5,
+        defense: 5,
+        maxdefense: 5,
+        speed: 5,
+        maxspeed: 5,
+        inventory: {}
+      };
+      var gamestate = {
+        mode: "exploring"
+      };
+      setInterval(myMethod, 200);
+      document.getElementById("statwindow").innerHTML = "health:" + mystats.health + "/" + mystats.maxhealth + "<br>attack:" + mystats.attack + "/" + mystats.maxattack + "<br>defense:" + mystats.defense + "/" + mystats.maxdefense;
+      document.getElementById("button_1").innerHTML = "";
+      document.getElementById("button_2").innerHTML = "";
+      document.getElementById("button_3").innerHTML = "";
+      document.getElementById("button_4").innerHTML = "";
+      document.getElementById("button_5").innerHTML = "";
+      function myMethod() {
+
+
+      }
+
+
+    }
+  </script>

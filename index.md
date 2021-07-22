@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <title>floof test</title>
 
 <body onload="onload()">
